@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: "Book intercity buses, airport transfers & private hire across Kenya. Pay with M-Pesa, card, or PayPal.",
     siteName: "GM Rides",
     type: "website",
-    images: [{ url: "/og-image.png", width: 600, height: 600, alt: "GM Rides" }],
+    images: [{ url: "/og-image.png", width: 256, height: 256, alt: "GM Rides" }],
   },
   twitter: {
     card: "summary_large_image",
