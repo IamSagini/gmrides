@@ -8,9 +8,12 @@ export const metadata: Metadata = {
   title: "GM Rides — Kenya's Modern Transport Platform",
   description: "Book intercity buses, airport transfers & private hire across Kenya. Pay with M-Pesa, card, or PayPal.",
   icons: {
-    icon: "/logo.svg",
-    shortcut: "/logo.svg",
-    apple: "/logo.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/logo.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
   },
   openGraph: {
     title: "GM Rides — Kenya's Modern Transport Platform",
