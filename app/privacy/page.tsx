@@ -60,10 +60,10 @@ export default function PrivacyPage() {
         <div style={{ maxWidth: 820, margin: "0 auto" }}>
           <h1 style={{ fontFamily: "'Space Grotesk',sans-serif", fontSize: 40, fontWeight: 700, color: "white", marginBottom: 12 }}>{title}</h1>
           <p style={{ color: "rgba(232,244,253,0.4)", fontSize: 14, marginBottom: 48 }}>Last updated: June 2026</p>
-          {sections.map((s, i) => (
+          {sections.map((s: { h: string; p: string[] }, i: number) => (
             <div key={i} style={{ marginBottom: 36 }}>
               <h2 style={{ color: "#06B6D4", fontSize: 20, fontWeight: 600, marginBottom: 14 }}>{s.h}</h2>
-              {s.p.map((para, j) => (
+              {s.p.map((para: string, j: number) => (
                 <p key={j} style={{ color: "rgba(232,244,253,0.7)", fontSize: 15, lineHeight: 1.8, marginBottom: 14 }}>{para}</p>
               ))}
             </div>

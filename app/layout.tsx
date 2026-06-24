@@ -4,6 +4,7 @@ import ClientLayout from "./components/ClientLayout";
 import { CurrencyProvider } from "./context/CurrencyContext";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gmrides.net"),
   title: "GM Rides — Kenya's Modern Transport Platform",
   description: "Book intercity buses, airport transfers & private hire across Kenya. Pay with M-Pesa, card, or PayPal.",
   icons: {
